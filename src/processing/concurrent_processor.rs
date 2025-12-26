@@ -4,7 +4,7 @@ use tokio::time::{timeout, Duration};
 use uuid::Uuid;
 use serde::{Deserialize, Serialize};
 use crate::context::llm_context::{ContextManager, LLMContext};
-use crate::selection::async_context_selector::{ContextSelector, ContextSelectorConfig};
+use crate::selection::async_context_selector::ContextSelector;
 
 /// 请求处理配置
 #[derive(Debug, Clone, Serialize, Deserialize)]

@@ -112,7 +112,7 @@ impl AsyncRuntime {
         // 在实际实现中，这里会调用真正的上下文加载逻辑
         // 为演示目的，我们返回一些示例上下文
         use crate::domain::domain_classifier::Domain;
-        use std::collections::HashMap;
+        
 
         let domain = match domain_str {
             "medical" => Domain::Medical,

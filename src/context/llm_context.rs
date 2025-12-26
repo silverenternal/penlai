@@ -190,7 +190,7 @@ impl ContextManager {
         priority: Option<u8>,
     ) -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
         let mut contexts = self.contexts.write().await;
-        if let Some(mut context) = contexts.get_mut(&context_id) {
+        if let Some(context) = contexts.get_mut(&context_id) {
             if let Some(data) = context_data {
                 context.context_data = data;
             }
@@ -309,7 +309,7 @@ impl ContextManager {
     }
 
     /// 获取并发许可
-    pub async fn acquire_concurrent_permit(&self) -> tokio::sync::SemaphorePermit {
+    pub async fn acquire_concurrent_permit(&self) -> tokio::sync::SemaphorePermit<'_> {
         self.concurrency_limiter.acquire().await.unwrap()
     }
 

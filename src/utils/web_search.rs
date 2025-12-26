@@ -1,7 +1,6 @@
 use reqwest;
 use serde::{Deserialize, Serialize};
 use std::env;
-use std::collections::HashMap;
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct SearchResult {
@@ -113,7 +112,7 @@ impl WebSearchClient {
     /// Perform semantic search and aggregation across multiple queries
     pub async fn semantic_search(&self, query: &str) -> Result<Vec<SearchResult>, WebSearchError> {
         // First, try the main query
-        let mut results = self.search(query, Some(5)).await?;
+        let results = self.search(query, Some(5)).await?;
 
         // In a more advanced implementation, we might use LLM to analyze relevance
         // For now, we'll implement basic relevance scoring based on keyword matching

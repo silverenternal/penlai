@@ -1,5 +1,4 @@
 use crate::context::llm_context::LLMContext as Context;
-use std::collections::HashMap;
 
 /// 上下文选择器 - 根据用户查询选择最相关的上下文
 pub struct ContextSelector {
