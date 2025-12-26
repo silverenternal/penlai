@@ -1,0 +1,63 @@
+{
+  "medical": [
+    "disease", "treatment", "symptom", "doctor", "patient", "medicine", "hospital", "clinic", "pharmacy", "prescription",
+    "diagnosis", "therapy", "surgery", "operation", "nurse", "physician", "medical", "health", "illness", "condition",
+    "pneumonia", "bronchitis", "antibiotics", "rest", "supportive care", "virus", "bacteria", "infection", "fever",
+    "cough", "pain", "inflammation", "recovery", "rehabilitation", "vaccination", "immunization", "allergy", "asthma",
+    "diabetes", "hypertension", "cardiovascular", "heart", "lung", "kidney", "liver", "brain", "neurological",
+    "orthopedic", "dermatology", "pediatrics", "oncology", "radiology", "pathology", "anesthesia", "emergency",
+    "intensive care", "surgical", "medication", "pharmaceutical", "clinical", "research", "study", "trial", "patient care"
+  ],
+  "legal": [
+    "law", "court", "judge", "attorney", "contract", "agreement", "legal", "liability", "compliance", "regulation",
+    "legislation", "statute", "ordinance", "jurisdiction", "litigation", "lawsuit", "plaintiff", "defendant", "witness",
+    "evidence", "testimony", "verdict", "sentence", "appeal", "prosecution", "defense", "attorney", "barrister",
+    "solicitor", "notary", "deed", "will", "trust", "estate", "probate", "inheritance", "property", "real estate",
+    "lease", "rental", "tenant", "landlord", "mortgage", "lien", "foreclosure", "bankruptcy", "creditor", "debtor",
+    "contract law", "tort", "negligence", "crime", "criminal", "civil", "prosecutor", "district attorney", "judge",
+    "jury", "trial", "hearing", "motion", "brief", "precedent", "case law", "statutory", "regulatory", "compliance"
+  ],
+  "technical": [
+    "algorithm", "programming", "software", "hardware", "computer", "code", "development", "application", "system",
+    "database", "server", "client", "network", "internet", "web", "mobile", "app", "framework", "library",
+    "async", "await", "futures", "concurrent", "parallel", "multithreading", "performance", "optimization", "debug",
+    "debugging", "testing", "unit test", "integration", "api", "rest", "graphql", "microservices", "container",
+    "docker", "kubernetes", "cloud", "aws", "azure", "gcp", "devops", "ci/cd", "deployment", "monitoring",
+    "security", "encryption", "authentication", "authorization", "oauth", "jwt", "token", "session", "cookie",
+    "frontend", "backend", "fullstack", "ui", "ux", "design", "architecture", "pattern", "mvc", "mvp", "mvvm",
+    "rust", "python", "javascript", "typescript", "java", "csharp", "go", "kotlin", "swift", "php", "ruby",
+    "data structure", "object oriented", "functional programming", "machine learning", "ai", "artificial intelligence"
+  ],
+  "education": [
+    "school", "student", "teacher", "classroom", "education", "learning", "study", "course", "curriculum", "syllabus",
+    "lesson", "assignment", "homework", "exam", "test", "quiz", "grade", "score", "mark", "evaluation",
+    "assessment", "grading", "academic", "scholar", "research", "thesis", "dissertation", "professor", "instructor",
+    "university", "college", "campus", "degree", "bachelor", "master", "phd", "doctorate", "diploma", "certificate",
+    "enrollment", "admission", "tuition", "scholarship", "grant", "funding", "financial aid", "student loan",
+    "textbook", "notebook", "pencil", "pen", "calculator", "computer lab", "library", "reference", "citation",
+    "literature", "science", "mathematics", "history", "geography", "biology", "chemistry", "physics", "art",
+    "music", "physical education", "sports", "extracurricular", "club", "organization", "student council",
+    "academic year", "semester", "quarter", "trimester", "grading period", "report card", "transcript", "gpa"
+  ],
+  "finance": [
+    "money", "bank", "investment", "stock", "bond", "loan", "mortgage", "interest", "finance", "financial",
+    "account", "checking", "savings", "credit", "debit", "card", "cash", "currency", "dollar", "euro",
+    "pound", "yen", "exchange", "rate", "forex", "trading", "broker", "portfolio", "dividend", "yield",
+    "risk", "return", "profit", "loss", "revenue", "income", "expense", "budget", "planning", "forecast",
+    "tax", "taxation", "irs", "refund", "deduction", "credit", "audit", "accounting", "bookkeeping", "ledger",
+    "balance sheet", "income statement", "cash flow", "assets", "liabilities", "equity", "capital", "equity",
+    "debt", "credit score", "fico", "credit rating", "insurance", "policy", "premium", "claim", "benefit",
+    "retirement", "401k", "ira", "pension", "social security", "savings plan", "estate planning", "trust"
+  ],
+  "general": [
+    "hello", "hi", "goodbye", "bye", "thank", "please", "help", "question", "answer", "information",
+    "know", "understand", "explain", "describe", "what", "how", "why", "when", "where", "who",
+    "time", "date", "today", "yesterday", "tomorrow", "morning", "afternoon", "evening", "night", "day",
+    "week", "month", "year", "season", "weather", "temperature", "hot", "cold", "rain", "snow", "sunny",
+    "cloudy", "windy", "storm", "hurricane", "tornado", "earthquake", "flood", "drought", "temperature",
+    "food", "drink", "water", "eat", "drink", "hungry", "thirsty", "restaurant", "cook", "recipe", "meal",
+    "breakfast", "lunch", "dinner", "snack", "fruit", "vegetable", "meat", "vegetarian", "vegan", "diet",
+    "travel", "vacation", "trip", "hotel", "flight", "airplane", "car", "train", "bus", "transportation",
+    "home", "house", "apartment", "room", "bed", "kitchen", "bathroom", "living room", "furniture", "decor"
+  ]
+}
